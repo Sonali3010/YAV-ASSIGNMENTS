@@ -1,0 +1,54 @@
+h1 {
+    border-color: blue;
+    border-width: 0.25em;
+    border-style: double;
+  }
+  #Show {
+    box-sizing: content-box;
+    border-color: orange;
+    border-width: thin;
+    border-style: inset;
+    border-style: solid;
+  }
+  .button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    text-decoration: none;
+  
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 595px;
+    height: 20px;
+  }
+  
+  .div2 {
+    width: 600px;
+    height: 400px;
+    padding: 60px;
+    border: 1px solid orange;
+  }
+  input[type="text"] {
+    width: 595px;
+    height: 20px;
+    border: 1px solid black;
+  }
+  input[type="date"] {
+    width: 245px;
+    height: 25px;
+    border: 1px solid black;
+  }
+  HR {
+    width: 595px;
+    border: 1px solid black;
+  }
+  
+  select {
+    width: 245px;
+    height: 25px;
+    border: 1px solid black;
+  }
+  
