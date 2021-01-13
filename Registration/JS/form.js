@@ -81,6 +81,12 @@ function addNewLineElement(object) {
   a2.value = "delete";
   a2.addEventListener("click", () => {
     li.remove();
+    localStorage.removeItem(object.name);
+    localStorage.removeItem(object.emailId);
+    localStorage.removeItem(object.phone);
+    localStorage.removeItem(object.date);
+    localStorage.removeItem(object.time);
+    
   });
   a2.className = "delete";
   a2.style.border = "2px solid red";
